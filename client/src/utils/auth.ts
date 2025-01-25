@@ -36,7 +36,7 @@ class AuthService {
     // TODO: set the token to localStorage
     localStorage.setItem('jwt', idToken);
     // TODO: redirect to the home page
-    window.location.href = '/kanban';
+    window.location.href = '/';
   }
 
   logout() {
